@@ -5,22 +5,22 @@
 <style>
     body{
         background: linear-gradient(180deg,rgba(32, 0, 46, 1) 0%, rgba(38, 7, 21, 1) 77%, rgba(43, 12, 0, 1) 100%);
-        padding:13vh;
+        padding:10vw;
     }
     .button{
         color:aliceblue;
         background-color: #ffffff36;
-        font-size: 4vh;
+        font-size: 2vw;
         width:fit-content;
-        padding:2vh;
-        padding-top:1vh;
-        margin:1vh;
-        margin-bottom:2vh;
-        margin-top:0vh;
+        padding:1vw;
+        padding-top:1vw;
+        margin:1vw;
+        margin-bottom:2vw;
+        margin-top:0vw;
         text-decoration: none;
         transition: 0.3s;
-        border-bottom-left-radius: 2vh;
-        border-bottom-right-radius: 2vh;
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -36,34 +36,34 @@
     }
     .button-p{
         background-color: #ffffff36;
-        font-size: 4vh;
+        font-size: 2vw;
         width:fit-content;
-        padding:2vh;
-        margin:1vh;
-        margin-top:0vh;
+        padding:1vw;
+        margin:1vw;
+        margin-top:0vw;
         text-decoration: none;
         transition: 0.3s;
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: normal;
-        border-bottom-left-radius: 3vh;
-        border-bottom-right-radius: 3vh;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
         color:rgba(245, 210, 255, 0.377);
-        margin-bottom:1vh;
-        padding-top:2vh;
+        margin-bottom:1vw;
+        padding-top:2vw;
+    }
+    .button:hover {
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        color:rgb(245, 210, 255);
+        margin-bottom:1vw;
+        padding-top:2vw;
+        
     }
     /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;
 }
-    .button:hover {
-        border-bottom-left-radius: 3vh;
-        border-bottom-right-radius: 3vh;
-        color:rgb(245, 210, 255);
-        margin-bottom:1vh;
-        padding-top:2vh;
-        
-    }
     .header{
         backdrop-filter: blur(10px);
         background-color: #ffffff1f;
@@ -85,8 +85,8 @@
         transform:translate(-50%,0%);
     }
     .text{
-        border-radius: 2vh;
-        background-color: #ffffff1e;
+        border-radius: 1vw;
+        background-color: #0003;
         position:relative;
         color:aliceblue;
         top:0vh;
@@ -100,6 +100,19 @@
         
 
     }
+    .container{
+        position: relative;
+        background-color: #ffffff36;
+        padding:1vw;
+        width:fit-content;
+        left:50%;
+        transform:translate(-50%,0%);
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 1vw;
+
+    }
 </style>
 <div class="header">
     <div class="buttons">
@@ -109,6 +122,7 @@
         <a href="./" class="button-p">home</a>
     </div>
 </div>
+<div class="container">
 <div class="text">
     <h1>Welcome to SkyeNet!</h1> 
 SkyeNetwork (SkyeNet) is a unique and community-driven Minecraft server network crafted by Skye. It features a variety of custom servers, including custom modpacks— SkyeNet also hosts a server dedicated to 'Datapacks,' where players can explore and utilize custom-made datapacks created by the community. This network thrives on creativity, customization, and collaboration, making it a go-to destination for Minecraft enthusiasts seeking fresh and inventive content. SkyeNet emphasizes community involvement and the development of unique, player-driven experiences.
@@ -118,4 +132,5 @@ The Datapacks server is a part of SkyeNet, a Minecraft server network dedicated 
 
 <h1>Support Us</h1> 
 We’re passionate about maintaining SkyeNet, but hosting a project of this scale comes with significant costs. Your support helps keep the server running and allows us to expand its capabilities. Contribute by purchasing ranks or additional world slots to enhance your experience while supporting the server!
+</div>
 </div>
