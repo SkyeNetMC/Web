@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "SkyeNetwork - Initial Release"
-date: 2025-06-18 22:28:14 +0000
 categories: skyenetwork update announcement
 author: SkyeNetwork Team
 excerpt: "Welcome to the launch of SkyeNetwork! After tons of planning, building, and testing, the network is finally live - and this is just the beginning."
@@ -19,8 +18,8 @@ After tons of planning, building, and testing, the network is finally live after
 - 🌍 **Earth Server**: Customized earth server that runs on [earth map][earth-map]. Buy and sell items to get vehicles to travel.
 - **Lobby World**: Centralized lobby world with portals, cosmetics, and cross-server chat.
 - 💬 **Cross-Server Chat**: Communicate with players across all servers seamlessly.
-- **Cosmetics**: Hats, outfits, and particles to customize your player experience. There are even more you can get at the [shop][store].
-- **Player Shops**: Create your own shops to buy and sell items with other players.
+- 🎩 **Cosmetics**:  Hats, outfits, and particles to customize your player experience. There are even more you can get at the [shop][store].
+- 💰 **Player Shops**: Create your own shops to buy and sell items with other players.
 
 ## 🔧 Core Features
 
