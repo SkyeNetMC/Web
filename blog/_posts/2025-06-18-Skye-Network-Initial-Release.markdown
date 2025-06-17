@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SkyeNetwork - Initial Release"
-date: 2025-06-18 12:00:00 +0000
+date: 2025-06-17 12:00:00 +0000
 categories: skyenetwork update announcement
 author: SkyeNetwork Team
 excerpt: "Welcome to the launch of SkyeNetwork! After tons of planning, building, and testing, the network is finally live - and this is just the beginning."
