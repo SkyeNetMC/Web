@@ -1,0 +1,102 @@
+# Site settings
+title: Slimefun4 Wiki
+description: >-
+  Welcome to Slimefun4's comprehensive documentation! This Wiki is centered around you, 
+  the community. Contributions to the Wiki are much appreciated!
+baseurl: ""
+url: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  machines:
+    output: true
+    permalink: /:collection/:name/
+  electric:
+    output: true
+    permalink: /:collection/:name/
+  weapons:
+    output: true
+    permalink: /:collection/:name/
+  items:
+    output: true
+    permalink: /:collection/:name/
+  food:
+    output: true
+    permalink: /:collection/:name/
+  tools:
+    output: true
+    permalink: /:collection/:name/
+  armor:
+    output: true
+    permalink: /:collection/:name/
+  magical:
+    output: true
+    permalink: /:collection/:name/
+  gadgets:
+    output: true
+    permalink: /:collection/:name/
+  talismans:
+    output: true
+    permalink: /:collection/:name/
+  components:
+    output: true
+    permalink: /:collection/:name/
+  gps:
+    output: true
+    permalink: /:collection/:name/
+  cargo:
+    output: true
+    permalink: /:collection/:name/
+  androids:
+    output: true
+    permalink: /:collection/:name/
+  resources:
+    output: true
+    permalink: /:collection/:name/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Getting Started
+    url: /getting-started/
+  - title: Basic Machines
+    url: /machines/
+  - title: Electric Machines
+    url: /electric/
+  - title: Weapons
+    url: /weapons/
+  - title: Tools
+    url: /tools/
+  - title: Armor
+    url: /armor/
+  - title: Magical Items
+    url: /magical/
+  - title: GPS
+    url: /gps/
+  - title: Androids
+    url: /androids/
+  - title: Cargo
+    url: /cargo/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - .git/
+  - .github/
+  - vendor/
+  - .bundle/
