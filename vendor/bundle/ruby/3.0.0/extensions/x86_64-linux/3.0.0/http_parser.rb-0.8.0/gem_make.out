@@ -1,0 +1,20 @@
+current directory: /mnt/sda4/SkyeNetwork/Web/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20250620-137781-sand0u.rb extconf.rb
+creating Makefile
+
+current directory: /mnt/sda4/SkyeNetwork/Web/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /mnt/sda4/SkyeNetwork/Web/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /mnt/sda4/SkyeNetwork/Web/vendor/bundle/ruby/3.0.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20250620-137781-7hdrn
+/usr/bin/install: setting permissions for ‘./.gem.20250620-137781-7hdrn/ruby_http_parser.so’: Operation not permitted
+make: *** [Makefile:190: install-so] Error 1
+
+make install failed, exit code 2
