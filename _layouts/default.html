@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,4 +9,14 @@
   <body>
     {{ content }}
   </body>
-</html>
+</html> -->
+<title>Skyenet Blog</title>
+    {% include styling.html %}
+    <div class="container">
+    <div class="preview">
+        <title>{{page.title}}</title>
+    <p> {{content}} </p>
+    </div>
+    </div>
+
+    {% include header.html %}

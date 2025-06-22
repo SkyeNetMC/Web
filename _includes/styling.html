@@ -1,0 +1,250 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<style>
+    body{
+        background: linear-gradient(180deg,rgba(32, 0, 46, 1) 0%, rgba(38, 7, 21, 1) 77%, rgba(43, 12, 0, 1) 100%);
+        padding:10vw;
+    }
+    a{
+        color:aliceblue;
+        transition: 0.3s;
+
+    }
+    a:hover {
+        color:rgb(245, 210, 255);
+        
+    }
+    .category-card{
+        color:aliceblue;
+        background-color: #00000036;
+        padding:2vh;
+        margin: 1vh;
+        border-radius: 2vh;
+
+
+    }
+    .preview{
+        color:aliceblue;
+        width: 50vw;
+        background-color: #00000036;
+        padding:2vh;
+        margin: 1vh;
+        border-radius: 2vh;
+
+    }
+    .button{
+        color:aliceblue;
+        background-color: #ffffff36;
+        font-size: 2vw;
+        width:fit-content;
+        padding:1vw;
+        padding-top:1vw;
+        margin:1vw;
+        margin-bottom:2vw;
+        margin-top:0vw;
+        text-decoration: none;
+        transition: 0.3s;
+        border-bottom-left-radius: 1vw;
+        border-bottom-right-radius: 1vw;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    .button-p{
+        background-color: #ffffff36;
+        font-size: 2vw;
+        width:fit-content;
+        padding:1vw;
+        margin:1vw;
+        margin-top:0vw;
+        text-decoration: none;
+        transition: 0.3s;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        color:rgba(245, 210, 255, 0.377);
+        margin-bottom:1vw;
+        padding-top:2vw;
+    }
+    .button:hover {
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+        color:rgb(245, 210, 255);
+        margin-bottom:1vw;
+        padding-top:2vw;
+        
+    }
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+.footer{
+}
+    .container{
+        position: relative;
+        background-color: #ffffff36;
+        padding:1vh;
+        width:fit-content;
+        left:50%;
+        transform:translate(-50%,0%);
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        border-radius: 2vh;
+
+    }
+    .header{
+        backdrop-filter: blur(10px);
+        background-color: #ffffff1f;
+        padding:0vh;
+        margin-top:0vh;
+        position:fixed;
+        width:70%;
+        top:0;
+        left:50%;
+        transform:translate(-50%,0%);
+        border-bottom-left-radius: 2vh;
+        border-bottom-right-radius: 2vh;
+    }
+    .buttons{
+        display: flex;
+        width:fit-content;
+        position:relative;
+        left:50%;
+        transform:translate(-50%,0%);
+    }
+    .text{
+        border-radius: 2vh;
+        background-color: #ffffffb2;
+        position:relative;
+        color:aliceblue;
+        top:0vh;
+        width: 80vw;
+        left:50%;
+        transform:translate(-50%,0%);
+        padding:10px;
+        
+
+    }
+</style>
+
+<style>
+.hero-section {
+  background: linear-gradient(135deg, #4a90e2 0%, #7b68ee 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.hero-section h2 {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+
+.quick-start {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+
+.overview-section, .categories-section, .community-section {
+  margin: 3rem 0;
+}
+
+.overview-grid, .community-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.overview-card, .category-card, .community-card {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.overview-card:hover, .category-card:hover, .community-card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
+.category-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.category-card h3 a {
+  text-decoration: none;
+  color: #495057;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.category-card h3 a:hover {
+  color: #4a90e2;
+}
+
+.overview-card h4, .community-card h4 {
+  margin-top: 0;
+  color: #495057;
+}
+
+.overview-card h4 a, .community-card h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.overview-card h4 a:hover {
+  color: #4a90e2;
+}
+
+.btn-discord {
+  display: inline-block;
+  background: #7289da;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-discord:hover {
+  background: #5b6eae;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+  }
+  
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+  
+  .categories-grid, .overview-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
