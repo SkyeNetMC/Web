@@ -27,7 +27,7 @@ layout: default
         <p>Learn about the plugin and its features</p>
       </div>
       <div class="overview-card">
-        <h4><a href="{{ '/installation/' | relative_url }}">How to install Slimefun</a></h4>
+        <h4><a href="{{ '/installation/' | relative_url }}">Getting Started</a></h4>
         <p>Installation guide and server setup</p>
       </div>
       <div class="overview-card">
@@ -35,16 +35,8 @@ layout: default
         <p>Your first steps in Slimefun</p>
       </div>
       <div class="overview-card">
-        <h4><a href="{{ '/common-issues/' | relative_url }}">Common Issues</a></h4>
-        <p>Troubleshooting and problem solving</p>
-      </div>
-      <div class="overview-card">
         <h4><a href="{{ '/faq/' | relative_url }}">FAQ</a></h4>
         <p>Frequently asked questions</p>
-      </div>
-      <div class="overview-card">
-        <h4><a href="{{ '/addons/' | relative_url }}">Addons for Slimefun 4</a></h4>
-        <p>Extend Slimefun with additional content</p>
       </div>
     </div>
   </div>
